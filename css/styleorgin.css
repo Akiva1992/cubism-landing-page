@@ -1,0 +1,204 @@
+@font-face {
+    font-family: "Amble" ;
+    src: url(../fonts/amble/Amble-Regular-webfont.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Amble" ;
+    src: url(../fonts/amble/Amble-Italic-webfont.woff) format("woff");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Amble" ;
+    src: url(../fonts/amble/Amble-Bold-webfont.woff) format("woff");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Amble" ;
+    src: url(../fonts/amble/Amble-Light-webfont.woff) format("woff");
+    font-weight: light;
+    font-style: normal;
+}
+*{
+    font-family: 'Amble';
+    color: #222222;
+}
+
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0%;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to left bottom, #7e463e, #7c4652, #714a62, #61506d, #505570, #505873, #505c75, #515f77, #5f617e, #706382, #816583, #926680);
+}
+
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+
+}
+
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px 1px 6px rgba(0,0,0,.16); 
+    padding: 40px;  
+    border-bottom: 1.5px #222222 dotted;
+    align-self: stretch;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+}
+
+
+
+.logo-text {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 44px;
+}
+
+
+.logo-img {
+    transform: rotate(33deg);
+    width: 80px;   
+    padding-left: 3px;
+    padding-bottom: 3px;
+    box-shadow: 2px 2px 4px 1px rgba(0,0,0,.12);
+
+}
+
+
+.links {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    font-size: 38px;
+    font-style: italic;
+    padding: 8px;
+}
+
+.header-bottom {
+    /* max-width: 800px; */
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding: 200px; 
+    border-bottom: 1.5px #222222 dotted;
+    
+}
+
+.left-side-info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.info-main-text{
+    font-size: 28px;
+}
+
+.info-secondery-text {
+    font-size: 16px;
+}
+
+.top-button {
+    align-self: flex-start;
+    justify-self: flex-end;
+    border-radius: 4px;
+    background-color: #bb6194;
+    padding: 6px;
+}
+
+.right-side-imgs{
+    display: flex;
+}
+
+.body-top {
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.body-header-text{
+    background-color: #714a62;
+    font-weight: bold;
+    font-size: 48px;
+    padding: 28px;
+    width: 200px;
+    margin-bottom: 18px;
+    box-shadow: 2px 4px 4px 4px rgba(0,0,0,.12);
+}
+
+.body-imgs {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,.12);
+    padding: 20px;
+}
+
+.text {
+    max-width: 200px;
+    font-size: 12px;
+    flex-wrap: wrap;
+    padding: 2px 10px 10px;
+}
+
+.body-mid {
+    padding: 100px 70px;
+    border-top: 1.5px #222222 dotted;
+    border-bottom: 1.5px #222222 dotted;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+}
+
+.text-main {
+    /* max-width: 900px; */
+    padding: 5px 200px; 
+
+}
+
+.text-secondery {
+    font-style: italic;
+    font-size: 12px;
+    width: 600px;
+    text-align: right;
+}
+
+.body-bottom {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 70px 70px;
+    background-color: #515f77;
+
+}

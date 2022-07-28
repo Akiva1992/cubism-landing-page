@@ -1,0 +1,244 @@
+@font-face {
+    font-family: "Amble" ;
+    src: url(../fonts/amble/Amble-Regular-webfont.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Amble" ;
+    src: url(../fonts/amble/Amble-Italic-webfont.woff) format("woff");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Amble" ;
+    src: url(../fonts/amble/Amble-Bold-webfont.woff) format("woff");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Amble" ;
+    src: url(../fonts/amble/Amble-Light-webfont.woff) format("woff");
+    font-weight: light;
+    font-style: normal;
+}
+
+*{
+    font-family: 'Amble';
+    color: #222222;
+}
+
+body {
+    margin: 0%;
+    /* display: flex; */
+    flex-direction: column;
+    background-image: linear-gradient(to left bottom, #7e463e, #7c4652, #714a62, #61506d, #505570, #505873, #505c75, #515f77, #5f617e, #706382, #816583, #926680);
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.part-one {
+    display:flex;
+    flex-direction: column;
+}
+
+.part-one-top {
+    padding: 28px;
+    border-bottom: 2px #222222 dotted;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo {
+    display: flex; 
+    padding-left: 20px;
+    align-content: center; 
+}
+
+.logo-text {
+    align-self: center;
+    font-size: 44px;
+    font-weight: 800;
+}
+
+.logo-img {
+    transform: rotate(33deg);
+    width: 80px;   
+    padding-left: 3px;
+    padding-bottom: 3px;
+    box-shadow: 2px 2px 4px 1px rgba(0,0,0,.12);
+    
+}
+
+.links {
+    display:flex;
+    gap:10px;
+    font-size: 30px;
+    align-items: center;
+
+}
+   
+li {
+    border-left: 1px #222222 dotted;
+    padding: 5px 8px;
+
+}
+
+.right-link{
+    border-right: 1px #222222 dotted;
+}
+
+.part-one-bottom {
+    display:flex;
+    padding: 100px 400px 50px; 
+  
+}
+
+.left-side-info{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    border-bottom: 1px #222222 dotted;
+}
+
+
+.info-main-text {
+    font-size: 38px;
+}
+
+.info-secondary-text {
+    font-size: 24px;
+}
+
+.top-button {
+    padding: 8px;
+    width: max-content;
+    background-color: #be918b;
+    border-radius: 8px;
+    
+}
+
+.right-side-imgs{
+    display: flex;
+    border-bottom: 1px #222222 dotted;
+    padding-bottom: 100px;
+
+}
+
+.part-two {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 400px 100px;
+    gap: 12px; 
+    border-bottom: 1px #222222 dotted;
+
+}
+
+.part-two-header {
+    background-color: #714a62;
+    font-weight: bold;
+    font-size: 58px;
+    padding: 38px;
+    width: 200px;
+    margin-bottom: 18px;
+    box-shadow: 2px 4px 4px 4px rgba(0,0,0,.12);
+}
+
+.part-two-imgs {
+    display: flex;
+    gap: 18px;
+    padding: 2px 20px 20px;
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,.12);
+}
+
+.text{
+    width: 200px;
+}
+
+.part-three {
+    padding: 50px 400px 100px;
+    display: flex;
+    flex-direction:column;
+    gap: 12px;
+    padding-bottom: 40px;
+    border-bottom: 1px #222222 dotted;
+}
+
+.part-three-text {
+    font-size: 50px;
+}
+
+.part-three-text-secondary {
+    font-size: 30px;
+    align-self: flex-end;
+}
+
+.part-four {
+    padding: 50px 100px;
+    margin: 200px 400px;
+    background-color: #714a62;
+    display: flex;
+    justify-content:flex-start;
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,.12);
+
+}
+
+.part-four-left {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    gap: 12px;
+    align-items: flex-start;
+
+}
+
+
+.part-four .text {
+    font-size: 40px;
+}
+
+.part-four .smaller-text {
+    font-size: 28px;
+
+}
+
+.part-four-button{
+    padding: 8px;
+    width: max-content;
+    background-color: #be918b;
+    border-radius: 8px;
+}
+
+
+.part-four-right-img {
+    transform: rotate(38deg);
+}
+
+.footer {
+    display: flex;
+    /* box-shadow: 4px 4px 4px 4px rgba(0,0,0,8); */
+    border-top: 1px #222222 dotted;
+    justify-content: center;
+    padding:6px 0px;
+    gap: 8px;
+}
+
+.footer-text{
+    align-self: center;
+    font-size: 32px;
+    
+}
